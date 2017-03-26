@@ -8,7 +8,7 @@ require "json"
 
 class GitHubCommiter
   def initialize
-    @url = "http://github.com/JpnLavender"
+    @url = "https://github.com/JpnLavender"
     @commit_count = []
     @charset = nil
     @data = { 
